@@ -1,0 +1,23 @@
+body{
+    margin: 0px;
+    background-image: url(bc.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+#clock{
+    color: antiquewhite;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 5rem;
+    text-align: center;
+    backdrop-filter: blur(3px);
+    width: 100%;
+}
