@@ -1,0 +1,36 @@
+body{
+    background-color: rgb(11, 11, 51);
+     font-weight: bold;
+     margin: 0px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+}
+h1{
+    color: aliceblue;
+    text-align: center;
+    font-size: 2.7rem;
+}
+.choices{
+margin-bottom: 30px;
+}
+.choices button{
+font-size: 4.5rem;
+border-radius: 260px;
+background-color: hsl(120, 100%, 25%);
+cursor: pointer;
+transition: background-color 0.5s ease;
+}
+.choices button:hover{
+    background-color: white;
+}
+#playerdisplay, #computer{
+    color: aliceblue;
+    font-size: 2.5rem;
+    margin: 5px;
+}
+#resultdisplay{
+    color: yellow;
+    font-size: 2.5rem;
+    margin: 30px;
+}
